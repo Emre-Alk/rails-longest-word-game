@@ -1,0 +1,14 @@
+<div>
+  <div >
+    <ul class="list-group d-flex justify-content-start gap-1">
+      <% @letters.each do |letter| %>
+      <li><%= letter %></li>
+      <% end %>
+    </ul>
+  </div>
+  <form action="/score" method="POST">
+    <label for=""></label>
+    <input type="text" name="" id="">
+    <input type="submit">Send
+  </form>
+</div>
